@@ -1,0 +1,66 @@
+.presentation{
+
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1rem;
+
+
+    
+    margin: 2rem;
+}
+
+.presentation__img--logo{
+    width: 50%;
+    min-width: 300px;
+    max-width: 400px;
+    
+    animation:rotate-center 1.0s
+}
+
+@keyframes rotate-center{
+    0%{transform:rotate(0)}
+    100%{transform:rotate(360deg)}}
+
+
+.presentation__title{
+    font-size: 2rem;
+    color:aliceblue;
+    animation:jello-vertical .9s linear both
+}
+
+@keyframes jello-vertical{
+    0%{transform:scale3d(1,1,1)}
+    30%{transform:scale3d(.75,1.25,1)}
+    40%{transform:scale3d(1.25,.75,1)}
+    50%{transform:scale3d(.85,1.15,1)}65%
+    {transform:scale3d(1.05,.95,1)}75%
+    {transform:scale3d(.95,1.05,1)}100%
+    {transform:scale3d(1,1,1)}
+}
+
+
+
+.presentation__phrase{
+    color: aliceblue;
+    width: 90%;
+    max-width: 700px;
+    text-align: justify;
+    animation:blur-in-expand 0.4s linear both
+}
+
+
+
+@keyframes blur-in-expand{
+    0%{transform:scale(0);filter:blur(12px);opacity:0}
+    100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+@media(width > 600px){
+    
+    .presentation__phrase{
+        color: aliceblue;
+        width: 90%;
+        max-width: 700px;
+        text-align: center;
+    }
+}

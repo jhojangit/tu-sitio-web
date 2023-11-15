@@ -1,0 +1,33 @@
+
+
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.projects__title{
+    color: aliceblue;
+    margin: 1.5rem;
+}
+
+.projects__carousel{
+    width: 80%;
+    max-width: 800px;
+
+    border-radius: 1rem;
+    overflow: hidden;
+
+
+}
+
+
+.projects__carousel--img{
+    object-fit: contain;
+    
+}
+
