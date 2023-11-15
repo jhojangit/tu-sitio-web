@@ -11,7 +11,7 @@ const Contact = () => {
 
 
   return (
-    <Form className='contact'>
+    <Form className='contact' netlify>
 
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
