@@ -5,11 +5,15 @@
     background: linear-gradient(312deg, #2a5248, #25354e, #215353, #c97208);
     background-size: 800% 800%;
 
-    -webkit-animation: backgroundAnimation 7s ease infinite;
-    -moz-animation: backgroundAnimation 7s ease infinite;
-    -o-animation: backgroundAnimation 7s ease infinite;
-    animation: backgroundAnimation 7s ease infinite;
+    -webkit-animation: backgroundAnimation 80s ease infinite;
+    -moz-animation: backgroundAnimation 80s ease infinite;
+    -o-animation: backgroundAnimation 80s ease infinite;
+    animation: backgroundAnimation 80s ease-in-out infinite;
 
+
+    background-image: url("/public/8.jpg");
+    background-size: cover;
+    
 }
 
 

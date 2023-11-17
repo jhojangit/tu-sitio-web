@@ -12,7 +12,10 @@ const Contact = () => {
   return (
 
     <form name="contact" method="post" className='contact'>
-      <strong className='contact__title'>¡Creemos tu sitio web DE INMEDIATO!</strong>
+      <strong className='contact__title'>
+        ¡Creemos tu sitio web <span className='contact__span'>DE INMEDIATO!</span>
+        
+      </strong>
       <input type="hidden" name="form-name" value="contact" />
 
       <div className='contact__element'>
@@ -54,7 +57,7 @@ const Contact = () => {
           <textarea className='contact__input contact__textarea'
             name="message"
             required
-            placeholder='Puedes incluir ejemplos para brindarte mejor información'>
+            placeholder='Puedes incluir ejemplos para brindarte mejor información.'>
           </textarea>
         </label>
       </div>

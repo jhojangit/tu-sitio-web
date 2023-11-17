@@ -11,12 +11,23 @@
     .contact__title{
         color: aliceblue;
         font-size: 1.5rem;
+        text-shadow: 2px 2px 0 #000;
+
+    }
+
+    .contact__span{
+        color: var(--color-orange);
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 0 #000;
+
     }
     
     .contact__label{
         color: aliceblue;
         display: flex;
         flex-direction: column;
+        text-shadow: 2px 2px 0 #000;
+
         
         
         .contact__input{

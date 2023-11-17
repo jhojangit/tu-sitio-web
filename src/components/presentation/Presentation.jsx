@@ -33,7 +33,7 @@ const Presentation = () => {
             </h1>
             <p className='presentation__phrase'>Creamos páginas web a la medida de tus necesidades y objetivos. Nuestros diseños son 
 
-            <span style={{color:"var( --color-orange)"}}> 100% </span>
+            <span className='presentation__span'> 100% </span>
 
             personalizados y efectivos, adaptados a la imágen de tu marca y enfocados en brindar una experiencia de usuario óptima.</p>
         </div>

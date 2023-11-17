@@ -16,6 +16,12 @@
     animation:pendulo 45s infinite ;
 }
 
+.presentation__span{
+    color: var(--color-orange);
+    font-weight: bold;
+    text-shadow: 1px 2px 0 #000;
+}
+
 @keyframes pendulo {
     0%{transform: rotate(0deg);}
 
@@ -79,7 +85,10 @@
 .presentation__title{
     font-size: 2rem;
     color:aliceblue;
-    animation:jello-vertical .9s linear both
+    animation:jello-vertical .9s linear both;
+    text-shadow: 2px 2px 0 #000;
+
+
 }
 
 .presentation__title--span{
@@ -116,7 +125,10 @@
     width: 90%;
     max-width: 700px;
     text-align: justify;
-    animation:blur-in-expand 0.4s linear both
+    animation:blur-in-expand 0.4s linear both;
+    text-shadow: 2px 2px 0 #000;
+
+    
 }
 
 
