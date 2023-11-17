@@ -5,6 +5,7 @@ import Services from '../services/Services'
 import Projects from '../projects/Projects'
 import Presentation from '../presentation/Presentation'
 import Contact from '../contact/Contact'
+import Whatsapp from '../whatsapp/Whatsapp'
 
 
 const Home = () => {
@@ -29,9 +30,13 @@ const Home = () => {
                 <Projects/>
             </section>
 
-{/* 
-            {<Link to="/price"> asd </Link>}
- */}
+            <section className='whatsapp__container'>
+                <Whatsapp/>
+            </section>
+
+
+            {<Link to="/prices"> assssssssssssssss </Link>}
+
 
         </main>
 

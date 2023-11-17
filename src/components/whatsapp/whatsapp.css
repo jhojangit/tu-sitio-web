@@ -1,0 +1,7 @@
+.whats a{
+    color: green;
+}
+
+.whats a:hover::before{
+    content: "Charlemos";
+}

@@ -17,8 +17,25 @@ const Presentation = () => {
                 <img src={logo1} alt="Logo" />
             </section>
 
-            <h1 className='presentation__title'>TU SITIO WEB</h1>
-            <p className='presentation__phrase'>{presentationPhrase}</p>
+            <h1 className='presentation__title'>
+                <span className='presentation__title--span'>T</span>
+                <span className='presentation__title--span'>U</span>
+                <span className='presentation__title--span'> </span>
+                <span className='presentation__title--span'>S</span>
+                <span className='presentation__title--span'>I</span>
+                <span className='presentation__title--span'>T</span>
+                <span className='presentation__title--span'>I</span>
+                <span className='presentation__title--span'>O</span>
+                <span className='presentation__title--span'> </span>
+                <span className='presentation__title--span'>W</span>
+                <span className='presentation__title--span'>E</span>
+                <span className='presentation__title--span'>B</span>
+            </h1>
+            <p className='presentation__phrase'>Creamos páginas web a la medida de tus necesidades y objetivos. Nuestros diseños son 
+
+            <span style={{color:"var( --color-orange)"}}> 100% </span>
+
+            personalizados y efectivos, adaptados a la imágen de tu marca y enfocados en brindar una experiencia de usuario óptima.</p>
         </div>
     )
 }

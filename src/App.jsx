@@ -1,9 +1,9 @@
 import './App.css'
 
 import { HashRouter, Routes, Route, Link } from 'react-router-dom'
-import Price from './components/price/Price';
+
 import Home from './components/home/Home';
-import Navbar from './components/navbar/Navbar';
+import Prices from './components/pricesPage/Prices';
 
 function App() {
 
@@ -13,13 +13,14 @@ function App() {
 
     <HashRouter>
 
-      <Navbar/>
-
       <Routes>
 
         <Route path="/" element={<Home/>} />
 
-        <Route path="/price" element={<Price/>} />
+        <Route path="/prices" element={<Prices/>}/>
+
+        <Route path='*' element={<h1>Esta ruta no existe</h1>} />
+
 
       </Routes>
 

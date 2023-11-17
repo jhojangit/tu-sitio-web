@@ -1,13 +1,10 @@
 .presentation{
-
     display: flex;
     flex-direction: column;
     place-items: center;
     gap: 1rem;
 
 
-    
-    margin: 2rem;
 }
 
 .presentation__img--logo{
@@ -15,7 +12,63 @@
     min-width: 300px;
     max-width: 400px;
     
-    animation:rotate-center 1.0s
+    animation:rotate-center 1.0s;
+    animation:pendulo 45s infinite ;
+}
+
+@keyframes pendulo {
+    0%{transform: rotate(0deg);}
+
+    4%{transform: rotate(14deg)}
+
+    8%{transform: rotate(28deg)}
+
+    12%{transform: rotate(42deg)}
+
+    16%{transform: rotate(56deg)}
+
+    20%{transform: rotate(70deg)}
+
+    24%{transform: rotate(82deg);}
+
+    28%{transform: rotate(98deg)}
+
+    32%{transform: rotate(112deg)}
+
+    36%{transform: rotate(126deg)}
+
+    40%{transform: rotate(140deg)}
+
+    44%{transform: rotate(154deg)}
+
+    48%{transform: rotate(168deg)}
+
+    52%{transform: rotate(182deg)}
+
+    56%{transform: rotate(196deg)}
+
+    60%{transform: rotate(210deg)}
+
+    64%{transform: rotate(224deg)}
+
+    68%{transform: rotate(238deg)}
+
+    72%{transform: rotate(252deg)}
+
+    76%{transform: rotate(266deg)}
+
+    80%{transform: rotate(280deg)}
+
+    84%{transform: rotate(294deg)}
+
+    88%{transform: rotate(308deg)}
+
+    92%{transform: rotate(322deg)}
+
+    96%{transform: rotate(336deg)}
+
+    100%{transform: rotate(360deg)}
+
 }
 
 @keyframes rotate-center{
@@ -28,6 +81,23 @@
     color:aliceblue;
     animation:jello-vertical .9s linear both
 }
+
+.presentation__title--span{
+    font-size: 1.7rem;
+}
+
+.presentation__title--span:nth-child(10){
+    color: rgb(255, 81, 0);
+}
+
+.presentation__title--span:nth-child(11){
+    color: rgb(255, 81, 0);
+}
+
+.presentation__title--span:nth-child(12){
+    color: rgb(255, 81, 0);
+}
+
 
 @keyframes jello-vertical{
     0%{transform:scale3d(1,1,1)}
@@ -62,5 +132,6 @@
         width: 90%;
         max-width: 700px;
         text-align: center;
+        
     }
 }

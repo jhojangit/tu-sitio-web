@@ -9,33 +9,42 @@ const Contact = () => {
 
 
 
-  //netlify-honeypot="bot-field"
-
-
-
   return (
 
     <form name="contact" method="post" className='contact'>
+      <strong className='contact__title'>¡Creemos tu sitio web DE INMEDIATO!</strong>
       <input type="hidden" name="form-name" value="contact" />
 
       <div className='contact__element'>
         <label className='contact__label'>
           Tu nombre:
-          <input className='contact__input' type="text" name="name" required />
+          <input className='contact__input' 
+            type="text" 
+            name="name" 
+            required 
+          />
         </label>
       </div>
+
 
       <div className='contact__element'>
         <label className='contact__label'>
           Email:
-          <input className='contact__input' type="email" name="email" required />
+          <input className='contact__input' 
+            type="email" 
+            name="email" 
+            required 
+          />
         </label>
       </div>
 
       <div className='contact__element'>
         <label className='contact__label'>
           Número de contacto:
-          <input className='contact__input' type="number" name="phone" />
+          <input className='contact__input' 
+            type="number" 
+            name="phone" 
+          />
         </label>
       </div>
 
