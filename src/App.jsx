@@ -3,7 +3,7 @@ import './App.css'
 import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 
 import Home from './components/home/Home';
-import Prices from './components/pricesPage/Prices';
+import Prices from './pages/pricesPage/Prices';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
 
         <Route path="/prices" element={<Prices/>}/>
 
-        <Route path='*' element={<h1>Esta ruta no existe</h1>} />
+        <Route path='*' element={<h1>Esta ruta no existe 404</h1>} />
 
 
       </Routes>

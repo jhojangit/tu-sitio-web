@@ -45,6 +45,10 @@
     cursor: pointer;
 }
 
+.slider__arrow:hover{
+    color: rgb(245, 146, 76);
+}
+
 .bxs-right-arrow-square{
     right: 0;
 }
