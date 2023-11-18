@@ -1,0 +1,118 @@
+.prices__page{
+    background-image: url("../../../public/8.jpg");
+    
+    background-size: cover;
+
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.prices__btn{
+    background-color: rgba(40, 52, 58, 0.897);
+    color: aliceblue;
+    padding: .3rem;
+    border: 1px solid #0000005e;
+    position: absolute;
+    left: 10px;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 150ms;
+}
+
+.prices__btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: var(--color-orange);
+}
+
+
+.prices__title{
+    color: aliceblue;
+    font-size: 2rem;
+    text-shadow: 1px 2px 0 #000;
+    margin-top: 5rem;
+
+}
+
+.prices__subtitle{
+    color: var(--color-orange);
+    font-size: 1rem;
+    text-shadow: 1px 2px 0 #000;
+
+}
+
+.prices__phrase{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-shadow: 1px 2px 0 #000;
+
+}
+
+
+.prices__card--container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 1.5rem;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 250px));
+    place-content: center;
+    gap: 1rem;
+}
+
+.prices__card{
+    background-color: rgba(40, 52, 58, 0.897);
+    display: flex;
+    flex-direction: column;
+    border: .5px solid rgba(226, 221, 221, 0.26);
+    border-radius: 1.5rem;
+    gap:1rem;
+    padding: .5rem;
+    justify-content: space-between;
+
+    transition: all 250ms;
+}
+
+.prices__card:hover{
+    background-color: rgba(69, 82, 88, 0.753);
+    border-radius: .5rem;
+}
+
+.prices__card:hover .prices__name{
+    color: var(--color-orange);
+}
+
+
+.prices__price{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    
+    color: aliceblue;
+    text-shadow: 1px 2px 0 #000;
+}
+
+.prices__name{
+    color: var(--color-orange);
+    text-shadow: 1px 2px 0 #000;
+    font-weight: bold;
+}
+
+.prices__ul{
+    list-style: none;
+}
+
+
+.prices__a{
+    color: rgb(255, 250, 250);
+}
+
+.prices__a:hover{
+    color: var(--color-orange);
+}

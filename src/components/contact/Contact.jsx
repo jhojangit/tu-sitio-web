@@ -13,7 +13,7 @@ const Contact = () => {
 
     <form name="contact" method="post" className='contact'>
       <strong className='contact__title'>
-        ¡Creemos tu sitio web <span className='contact__span'>DE INMEDIATO!</span>
+        ¡Hagamos realidad tu <span className='contact__span'>WEB!</span>
         
       </strong>
       <input type="hidden" name="form-name" value="contact" />

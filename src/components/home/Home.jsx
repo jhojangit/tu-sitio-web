@@ -6,6 +6,7 @@ import Projects from '../projects/Projects'
 import Presentation from '../presentation/Presentation'
 import Contact from '../contact/Contact'
 import Whatsapp from '../whatsapp/Whatsapp'
+import Button from '../button/Button'
 
 
 const Home = () => {
@@ -20,6 +21,10 @@ const Home = () => {
 
             <section className='contact__container'>
                 <Contact/>
+            </section>
+
+            <section className='btn__container'>
+                <Button/>
             </section>
 
             <section className='servicios__container'>
