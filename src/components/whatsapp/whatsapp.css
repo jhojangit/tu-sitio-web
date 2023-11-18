@@ -2,12 +2,13 @@
     position: fixed;
     bottom: 20px;
     right: 10px;
+
 }
 
 .whats a{
     color: green;
 }
 
-.whats a:hover::before{
-    content: "Charlemos";
+.whats a:hover{
+    color: var(--color-orange);
 }

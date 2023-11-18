@@ -84,7 +84,7 @@
     border-radius: .5rem;
 }
 
-.prices__card:hover .prices__name{
+.prices__card:hover .prices__price{
     color: var(--color-orange);
 }
 
