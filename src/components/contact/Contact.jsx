@@ -57,7 +57,7 @@ const Contact = () => {
           <textarea className='contact__input contact__textarea'
             name="message"
             required
-            placeholder='Puedes incluir ejemplos para brindarte mejor información.'>
+            placeholder='Puedes incluir ejemplos de otras páginas para brindarte mejor información.'>
           </textarea>
         </label>
       </div>

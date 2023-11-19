@@ -8,7 +8,6 @@ import Contact from '../contact/Contact'
 import Whatsapp from '../whatsapp/Whatsapp'
 import Button from '../button/Button'
 
-
 const Home = () => {
     return (
         <main className='home'>
@@ -31,9 +30,11 @@ const Home = () => {
                 <Services/>
             </section>
 
+            
             <section className='projects__container'>
                 <Projects/>
             </section>
+
 
             <section className='whatsapp__container'>
                 <Whatsapp/>
