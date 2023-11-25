@@ -41,9 +41,6 @@ const Home = () => {
             </section>
 
 
-            {<Link to="/prices"> assssssssssssssss </Link>}
-
-
         </main>
 
     )

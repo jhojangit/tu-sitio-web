@@ -10,6 +10,9 @@ const Button = () => {
 
     const handleMain = () => {
       navigate("/prices")
+      
+
+      window.scroll({top:0, behavior: 'smooth'})
     }
 
 
